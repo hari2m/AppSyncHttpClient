@@ -1,15 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>AppSyncHttpClient</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Hari Krishna Gaddipati</Authors>
+		<PackageDescription>This package helps with making http requests to AppSync event channels using the IAM auth</PackageDescription>
+		<RepositoryUrl>https://github.com/hari2m/AppSyncHttpClient</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AWSSDK.Core" Version="4.0.0.28" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.9" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.Core" Version="4.0.0.28" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.9" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
 
 </Project>

@@ -33,8 +33,8 @@ namespace AppSyncHttpClient.Services
         {
             var payload = new PublishPayload<string>
             {
-                Channel = topic,
-                Events = [JsonSerializer.Serialize(message)]
+                channel = topic,
+                events = [JsonSerializer.Serialize(message)]
             };
             var jsonPayload = JsonSerializer.Serialize(payload);
             var request = CreateHttpRequest(jsonPayload);

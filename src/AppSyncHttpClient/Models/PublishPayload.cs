@@ -2,7 +2,7 @@
 {
     public class PublishPayload<T>
     {
-        public string Channel { get; set; } = default!;
-        public T[] Events { get; set; } = default!;
+        public string channel { get; set; } = default!;
+        public T[] events { get; set; } = default!;
     }
 }
